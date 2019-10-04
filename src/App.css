@@ -1,7 +1,14 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
-
+.container{
+  width: 500px;
+}
 .App-logo {
   height: 40vmin;
 }
@@ -19,4 +26,15 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+#buscador{
+  background: #ccc;
+  padding: 20px;
+}
+
+#conteudoEndereco{
+  border: 5px solid #ccc;
+  margin-top: 10px;
+  padding: 10px;
 }
